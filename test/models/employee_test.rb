@@ -9,20 +9,5 @@ class EmployeeTest < ActiveSupport::TestCase
     assert @employee.valid?
   end
 
-  test "Check Phone Int Invalid" do
-    @employee.update(phone_number: 5555555555)
-    assert_not @employee.valid?
-  end
-
-  test "Check 9 Digit Invalid" do
-    @employee.update(phone_number: "555555555")
-    assert_not @employee.valid?
-  end
-
-  test "Check 11 Digit Invalid" do
-    @employee.update(phone_number: "55555555555")
-    assert_not @employee.valid?
-  end
-
 
 end
