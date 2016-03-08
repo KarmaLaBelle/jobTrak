@@ -15,6 +15,6 @@ class CreateJobs < ActiveRecord::Migration
       t.timestamps null: true
     end
 
-    add_index :jobs, :employee_id
+    add_foreign_key :jobs, :employees
   end
 end

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="756e5e2b-7e49-4315-8e25-f8ba33fa9fe7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" afterPath="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" />
     </list>
@@ -43,8 +42,8 @@
       <file leaf-file-name="20160308092552_create_jobs.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66188526">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.5922131">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -795,7 +794,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457469734346</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Seriously, this is getting old fast">
+      <created>1457471066755</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1457471066755</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -840,7 +845,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I don't even know anymore :neckbeard:" />
     <MESSAGE value="God damnit" />
     <MESSAGE value="WTF" />
     <MESSAGE value="Delete lockfile" />
@@ -865,7 +869,8 @@
     <MESSAGE value="One error at a time" />
     <MESSAGE value="Add foreign key" />
     <MESSAGE value="Add foreign key - IDFK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add foreign key - IDFK" />
+    <MESSAGE value="Seriously, this is getting old fast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seriously, this is getting old fast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1225,8 +1230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66188526">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.5922131">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
