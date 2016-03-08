@@ -4,7 +4,7 @@ class CreateJobs < ActiveRecord::Migration
       t.string :name
       t.string :address
       t.string :phone_number
-      t.datetime :jobtime
+      t.datetime :job_time
       t.integer :employee_id
 
       t.timestamps null: false
