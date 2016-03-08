@@ -7,6 +7,8 @@ class CreateJobs < ActiveRecord::Migration
       t.datetime :jobtime
 
       t.timestamps null: false
+
+      add_foreign_key :jobs, :employees
     end
   end
 end
