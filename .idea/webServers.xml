@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ce4b543c-4c37-4871-838f-8bb3d67c9413" name="OVH" url="http://myovh.serv">
+        <fileTransfer host="myovh.serv" port="22" rootFolder="/root" accessType="SFTP" password="dfffdfc8dfcfdfd8df9bdf99df99df9ddfc2df9edfd2df8b" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
