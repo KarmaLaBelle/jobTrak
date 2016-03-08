@@ -5,13 +5,13 @@ class CreateJobs < ActiveRecord::Migration
       t.string :address
       t.string :phone_number
       t.datetime :jobtime
+      t.integer :employee_id
 
       t.timestamps null: false
     end
     create_table :employees do |t|
       t.string :name
       t.string :phone_number
-      t.integer :employee_id
       t.timestamps null: true
     end
 
