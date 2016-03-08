@@ -1,4 +1,4 @@
-" Travis CI Configuration
+# Travis CI Configuration
 language: ruby
 rvm:
 - 2.2.3

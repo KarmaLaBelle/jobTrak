@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -587,7 +587,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457433523639</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Dumb Commit">
+      <created>1457433767665</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1457433767665</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -646,7 +652,8 @@
     <MESSAGE value="Simple database info" />
     <MESSAGE value="Hopefully these tests work. Pull through for me, Travis!" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Dumb Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dumb Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1014,7 +1021,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>
