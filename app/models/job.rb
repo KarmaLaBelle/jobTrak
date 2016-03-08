@@ -4,5 +4,5 @@ class Job < ActiveRecord::Base
   validates :phone_number, presence: true, uniqueness: true, length: { is: 10 }
   validates :jobtime, presence: true
 
-  belongs_to :employees
+  belongs_to :employee
 end
