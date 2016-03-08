@@ -7,6 +7,7 @@ services:
 before_script:
   - createdb -O postgres jobTrak_test
   - cp config/database.yml.travis config/database.yml
+  - cp config/secrets.yml.travis config/secrets.yml
   - rake db:migrate RAILS_ENV=test
 notifications:
   slack:
