@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="756e5e2b-7e49-4315-8e25-f8ba33fa9fe7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" afterPath="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb" afterPath="$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb" />
     </list>
     <ignored path="jobTrak.iws" />
@@ -42,8 +43,8 @@
       <file leaf-file-name="20160308092552_create_jobs.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.037037">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state vertical-scroll-proportion="-5.6666665">
+              <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -52,8 +53,8 @@
       <file leaf-file-name="20160308093638_create_employees.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18453188">
-              <caret line="8" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.13839892">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -95,8 +96,8 @@
         <option value="$PROJECT_DIR$/app/models/job.rb" />
         <option value="$PROJECT_DIR$/config/secrets.yml.travis" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" />
       </list>
     </option>
   </component>
@@ -697,7 +698,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457460319487</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Add foreign key - IDFK">
+      <created>1457460619590</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1457460619590</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1143,16 +1150,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20160308093638_create_employees.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18453188">
-          <caret line="8" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.13839892">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
