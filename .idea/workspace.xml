@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="756e5e2b-7e49-4315-8e25-f8ba33fa9fe7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/employee.rb" afterPath="$PROJECT_DIR$/app/models/employee.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/job.rb" afterPath="$PROJECT_DIR$/app/models/job.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/employee_test.rb" afterPath="$PROJECT_DIR$/test/models/employee_test.rb" />
     </list>
     <ignored path="jobTrak.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,21 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="employee.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/employee.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2090164">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="job.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/job.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="130" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
+            <state vertical-scroll-proportion="0.13934426">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -85,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/test/models/job_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -127,8 +125,8 @@
         <option value="$PROJECT_DIR$/db/migrate/20160308092552_create_jobs.rb" />
         <option value="$PROJECT_DIR$/test/models/job_test.rb" />
         <option value="$PROJECT_DIR$/test/models/employee_test.rb" />
-        <option value="$PROJECT_DIR$/app/models/job.rb" />
         <option value="$PROJECT_DIR$/app/models/employee.rb" />
+        <option value="$PROJECT_DIR$/app/models/job.rb" />
       </list>
     </option>
   </component>
@@ -832,7 +830,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457473087769</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="More test fixing. Now with overly less regex!!!">
+      <created>1457473495902</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1457473495902</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -877,7 +881,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="byebug test over" />
     <MESSAGE value="Updated README, added simple shit to index" />
     <MESSAGE value="Removed sensitive data" />
     <MESSAGE value="Initial Push" />
@@ -902,7 +905,8 @@
     <MESSAGE value="Now I got it. I hope." />
     <MESSAGE value="Okay. Foreign key set up. Now for tests!" />
     <MESSAGE value="More test fixing. Now with overly convoluted regex!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="More test fixing. Now with overly convoluted regex!!!" />
+    <MESSAGE value="More test fixing. Now with overly less regex!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="More test fixing. Now with overly less regex!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1236,14 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/job_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/employee_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1252,18 +1248,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/job.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/employee.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="130" selection-start-line="3" selection-start-column="130" selection-end-line="3" selection-end-column="130" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/employee.rb">
+    <entry file="file://$PROJECT_DIR$/test/models/job_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2090164">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/job.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13934426">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
