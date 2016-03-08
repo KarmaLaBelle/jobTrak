@@ -1,0 +1,4 @@
+test:
+  adapter: postgresql
+  database: jobTrak_test
+  username: postgres

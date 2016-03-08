@@ -6,8 +6,7 @@ services:
   - postgresql
 before_script:
   - psql -c 'create database jobTrak_test;' -U postgres
-env:
-  - DATABASE_URL=postgres://postgres@localhost:5432/jobTrak_test
+  - cp config/database.yml.travis config/database.yml
 notifications:
   slack:
     secure: JB30b3wQzdqIHNu7JCytVll8ClSzZ9JldgF2gDAppTwfwvmtxYfZcxCIZapdex9yX+dlBw4BeXWO+t4HQRrUMHANHyBZfrs2snzSs4XlKPlUl2AmfxIwZ5SxKrbQti89KYEr0JaIceleVWe5BtUzhvzhgJ9NJeJ4qyGkFRab9HWxcBwBQvgxtOIDj1j2CoralsA5BHQ7TWfoZ+4XXealbr7i1j9CDrE+FioNGPkAcKkl8lzEzU5wJS8kl9EF6VkgOZVAUv4PHhQeK8m+h5mWxSwvWFu15BppPb+HiTdvrfPe+CWognlbTZuHuOBhb67EImttZywCCpstUpVjH4abPk6NKeQ8oA2a8qU1Ku+NqzZ7u7GNvwrG0UOY4SGVK/KNv0FTWv3vYTBSRS1HDdzI4wp9P4GuQ8JiAiYRXzyx+xIftF6IxqcVdZS2WqVQ4IYd8GXaeL2gMcMqhFafZO7dKvwdNJJm4IP1+Gna2xzO/YAzlOsHLAtu6q91Yihgg2eenZKnqjwf9DONowKjmfcMMg8qu1FWnzhiwDzz7IeALKt7GV5fASU2DFs6NRFleZRMD1L0dmOt6HfXcAtBHZZF8n03WECnbYWjTEHz4OPSWuy7vBrIZLLz6jopuw3lCNpODRkI0EYPhnxjmiRH//DgFIZXc6/rSLV6II2ALEOmjqA=
