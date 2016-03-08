@@ -11,7 +11,7 @@ class CreateJobs < ActiveRecord::Migration
     create_table :employees do |t|
       t.string :name
       t.string :phone_number
-
+      t.integer :employee_id
       t.timestamps null: true
     end
 

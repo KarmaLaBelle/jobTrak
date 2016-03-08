@@ -800,7 +800,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457471066755</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Seriously, this is getting old fast">
+      <created>1457471412095</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1457471412095</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
