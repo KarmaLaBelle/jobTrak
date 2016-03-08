@@ -8,8 +8,7 @@ class CreateJobs < ActiveRecord::Migration
 
       t.timestamps null: false
       t.references :employees, index: true, foreign_key: true
-
-      add_foreign_key :jobs, :employees
     end
+    add_foreign_key :jobs, :employees
   end
 end
