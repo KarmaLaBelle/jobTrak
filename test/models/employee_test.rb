@@ -1,7 +1,7 @@
 require 'test_helper'
 
 class EmployeeTest < ActiveSupport::TestCase
-  def init
+  def setup
     @employee = Employee.create(id: 1, name: "John Smith", phone_number: 5555555555)
   end
 
