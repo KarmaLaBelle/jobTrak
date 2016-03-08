@@ -6,7 +6,7 @@ class CreateEmployees < ActiveRecord::Migration
 
       t.timestamps null: false
 
-      add_foreign_key :jobs, :employees
+      add_foreign_key :employees, :jobs
     end
   end
 end
